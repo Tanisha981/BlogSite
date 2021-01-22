@@ -1,0 +1,168 @@
+body{
+	margin: 0px;
+}
+header{
+	position: fixed;
+	width: 100%;
+	top: 0%;
+	background-color: #000033;
+	padding: 0px 1rem;
+}
+main{
+	min-height: calc(100% - 60px);
+	margin-top: 4rem;
+}
+.backdrop{
+	width: 100vw;
+	height: 100vh;
+	background-color: #DCDCDC;
+	opacity: 0.7;
+	position: fixed;
+	top: 0%;
+	display: none;
+}
+.nav_main{
+	display: inline-block;
+	width: 70%;
+}
+.nav_main_div{
+	display: inline-block;
+	width: 25%;
+	text-align: right;
+}
+.profile_name{
+	color: white;
+	display: inline-block;
+	padding: 0px 0.4rem;
+}
+.nav_main img{
+	width: 40pX;
+	height: 40px;
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.nav_main_div button{
+	background-color: white;
+	border-radius: 6px;
+    padding: 0.4rem;
+    font-weight: bold;
+}
+
+.view_profile{
+	position: fixed;
+	background-color: #000033;
+	width: 22%;
+	height: 100%;
+	padding: 0px 1rem;
+	color: white;
+	top: 0px;
+	display: none;
+}
+.view_profile a{
+	text-decoration: none;
+	color: white;
+}
+.profile_image{
+	width: 120pX;
+	height: 120px;
+	border-radius: 50%;
+	margin: 1rem auto;
+}
+.heading{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+.description{
+	text-align: center;
+	font-size: 1.5rem;
+}
+.post{
+	width: 80%;
+	margin: 2rem auto;
+	border: 1px solid #D3D3D3;
+}
+.sub_heading{
+	font-family: 'Montserrat', sans-serif;
+	padding: 0px 0.5rem;
+}
+.sub_description{
+	padding: 0px 0.5rem;
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 1.5;
+	height: 70px;
+	overflow: hidden;
+}
+.post button{
+	margin: 1rem 2rem;
+	background-color: #0033FF;
+	color: white;
+	padding: 8px;
+	font-size: 1rem;
+	border: 2px solid #0000FF;
+	border-radius: 4px;
+
+}
+.post button:hover{
+	color: #0033FF;
+	background-color: white;
+}
+.nature_image{
+	background: url("images/nature.jpg");
+	width: 100%;
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+.attitude_image{
+	background-image: url("images/myattitude.jpeg");
+	height: 400px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0% 20%;
+}
+.my_post{
+	display: inline-block;
+	width: 30%;
+	margin: 1rem 1rem;
+	border: 1px solid #D3D3D3;
+}
+.my_post img{
+	width: 100%;
+}
+.my_post_heading a{
+	text-decoration: none;
+	color: black;
+}
+
+@media(max-width: 30rem){
+	.post{
+		width: 100%;
+	}
+	.nature_image{
+		height: 200px;
+	}
+	.attitude_image{
+		height: 200px;
+	}
+	.my_post{
+		position: relative;
+		display: block;
+		width: 100%;
+		margin: 1rem 0rem;
+	}
+	.my_post img{
+		display: inline-block;
+		width: 40%;
+	}
+	.my_post_heading{
+		position: absolute;
+		display: inline-block;
+		font-size: 0.6rem;
+	}
+	.post button{
+		margin: 1rem 0.5rem;
+}
