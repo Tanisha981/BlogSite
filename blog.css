@@ -23,11 +23,11 @@ main{
 }
 .nav_main{
 	display: inline-block;
-	width: 70%;
+	width: 50%;
 }
 .nav_main_div{
 	display: inline-block;
-	width: 25%;
+	width: 45%;
 	text-align: right;
 }
 .profile_name{
@@ -149,7 +149,6 @@ main{
 		height: 200px;
 	}
 	.my_post{
-		position: relative;
 		display: block;
 		width: 100%;
 		margin: 1rem 0rem;
@@ -159,10 +158,14 @@ main{
 		width: 40%;
 	}
 	.my_post_heading{
-		position: absolute;
 		display: inline-block;
 		font-size: 0.6rem;
+		vertical-align: top;
 	}
 	.post button{
 		margin: 1rem 0.5rem;
+	}
+	.view_profile{
+		width: 50%;
+	}
 }
